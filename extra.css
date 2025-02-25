@@ -39,6 +39,7 @@ a:hover {
     font-size: 26px;
 }
 .bottomofpage {
+    margin-top: 10px;
     background-color: white;
     width: 40%;
     border-radius: 7px;
