@@ -1,8 +1,21 @@
 body {
     background-color: black;
 }
+h1 {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+video {
+    border-radius: 15px;
+    box-shadow: 0 0 10px white;
+}
+iframe {
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px white;
+}
 img {
-    outline-width: 2px;
-    outline-color: white;
-    outline-style: inherit;
+    margin-top: 50px;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
 }

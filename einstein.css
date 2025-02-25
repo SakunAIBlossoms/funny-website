@@ -1,0 +1,63 @@
+body {
+    background-color: #f4f1e5;
+    font-family: 'Garamond', serif;
+    color: #4b3f2f;
+    margin: 0;
+    padding: 0;
+}
+.parchment {
+    background: #fdf5e6;
+    border: 1px solid #d4c2a8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    transition: font-size 0.1s;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 26px;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: #3e2c1c;
+    margin-bottom: 20px;
+}
+.bottomofpage {
+    background-color: #4b3f2f;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #00000050;
+    border: 2px solid #d4c2a8;
+}
+p {
+    text-align: center;
+}
+img {
+    border-radius: 15px;
+    border: 2px solid #b6a48c;
+    box-shadow: 0 0 5px black;
+}
+/* Adding some texture */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+    opacity: 0.2;
+    z-index: -1;
+}
