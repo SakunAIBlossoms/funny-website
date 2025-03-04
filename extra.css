@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    cursor: url("assets/mikumikuooeeoo.ico"), default;
+  }
 body {
     min-height: 100vh;
     background-color: black;
